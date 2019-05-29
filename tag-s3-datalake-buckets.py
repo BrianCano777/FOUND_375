@@ -1,4 +1,4 @@
-#!/usr/bin/env python  #credit to drewda for original code; modified by B3CB 
+#!/usr/bin/env python  #credit to drewda for original code; modified by @B3CB; code review by @OXAH
 
 import argparse
 import boto3
