@@ -17,7 +17,7 @@ if __name__ == '__main__':
   xls_filename = r'S3_what_is_there_v2.xlsx'
   s3_dataframe = pd.read_excel(xls_filename, header=1)
   # TODO: filter down to just buckets marked for datalake tagging
-  bucket_names = s3_dataframe['Bucket name ']
+  bucket_names = s3_dataframe['Bucket_name']
 
   if args.dry_run:
     print("***** the following buckets are marked for datalake tagging *****")
