@@ -8,7 +8,7 @@ if __name__ == '__main__':
   # command-line arguments
   parser = argparse.ArgumentParser()
   parser.add_argument('--dry-run',
-                      default=True,
+                      default=True,  #swap to False to switch out of 'dry run' mode
                       action='store_true',
                       help="don't actually tag S3 buckets; just report which buckets should be tagged")
   args = parser.parse_args()
